@@ -1,5 +1,5 @@
 # Case Técnico: Plataforma Dadosfera 🚀
-**Candidata:** [Seu Nome Completo]
+**Candidata:** Gabriella Dias 
 **Objetivo:** Demonstrar o ciclo de vida completo do dado, da concepção ao valor de negócio.
 
 ---
