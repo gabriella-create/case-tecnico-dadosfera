@@ -5,12 +5,12 @@
 ---
 
 ## 📅 Item 0 - Agilidade e Planejamento (PMBOK)
-Para este projeto, utilizei uma abordagem baseada nas melhores práticas do **PMBOK**. O planejamento foi dividido em fases para garantir que a solução técnica atendesse aos requisitos de negócio da Dadosfera.
+Para este projeto, utilizei uma abordagem baseada nas melhores práticas do *PMBOK*. O planejamento foi dividido em fases para garantir que a solução técnica atendesse aos requisitos de negócio da Dadosfera.
 
 ### Fluxograma do Processo (Pipeline de Dados)
 Este fluxograma representa o caminho que o dado percorre: desde o nascimento (script) até a entrega final (dashboard).
 
-mermaid
+```mermaid
 graph TD
     classDef bronze fill:#cd7f32,stroke:#333,stroke-width:2px,color:#fff;
     classDef silver fill:#c0c0c0,stroke:#333,stroke-width:2px;
