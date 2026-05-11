@@ -1,0 +1,29 @@
+graph TD
+    %% Estilo das Caixas
+    classDef bronze fill:#cd7f32,stroke:#333,stroke-width:2px,color:#fff;
+    classDef silver fill:#c0c0c0,stroke:#333,stroke-width:2px;
+    classDef gold fill:#ffd700,stroke:#333,stroke-width:2px;
+    classDef tech fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef delivery fill:#bbf,stroke:#333,stroke-width:2px;
+
+    %% O Fluxo do Dado
+    START[<b>Início:</b> Script Python 100k registros] --> BRONZE(<b>Camada Bronze:</b> Dados Brutos / Raw)
+    
+    BRONZE --> QUALITY{<b>Data Quality:</b> Limpeza e Filtros}
+    
+    QUALITY --> SILVER(<b>Camada Silver:</b> Dados Limpos e Padronizados)
+    
+    SILVER --> AI[<b>Processamento GenAI:</b> Extração de Atributos via IA]
+    
+    AI --> GOLD(<b>Camada Gold:</b> Dados Refinados / Business)
+    
+    GOLD --> DASH[<b>Dashboard:</b> Visualização no Metabase]
+    
+    DASH --> APP[<b>Data App:</b> Streamlit / Entrega Final]
+
+    %% Aplicando as Cores
+    class START tech;
+    class BRONZE bronze;
+    class SILVER silver;
+    class GOLD gold;
+    class DASH,APP delivery;
