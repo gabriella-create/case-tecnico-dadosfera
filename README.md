@@ -30,7 +30,7 @@ graph TD
     class BRONZE bronze;
     class SILVER silver;
     class GOLD gold;
-    class DASH,APP delivery;
+    class DASH,APP delivery;'''
 ## 📊 Item 1: Base de Dados (+100k registros)
 Foi desenvolvido um script em Python para gerar uma base sintética de 100.000 registros, garantindo volume para testes de performance e diversidade de categorias.
 * *Domínio:* Varejo Digital.
